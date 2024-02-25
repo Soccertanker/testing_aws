@@ -11,6 +11,13 @@ Gather the following info:
  * AWS key pair name
  * vpc id for desired AWS region
 
+Ensure your environment has the proper ssh key for your AWS key pair.
+
+Ensure your terminal has active AWS session credentials using the following env variables:
+ * AWS_ACCESS_KEY_ID
+ * AWS_SECRET_ACCESS_KEY
+ * AWS_SESSION_TOKEN
+
 ## Procedure
 
 ```terraform init```
